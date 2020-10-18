@@ -5,7 +5,7 @@
 NO Working Group YET                                       K. Mindermann
 Internet-Draft                                           iC Consult GmbH
 Intended status: Informational                                   L. Teis
-Expires: 27 February 2021                                 26 August 2020
+Expires: 21 April 2021                                   18 October 2020
 
 
                           Secure Crypto Config
@@ -53,12 +53,12 @@ Status of This Memo
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 1]
+Mindermann & Teis         Expires 21 April 2021                 [Page 1]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
-   This Internet-Draft will expire on 27 February 2021.
+   This Internet-Draft will expire on 21 April 2021.
 
 Copyright Notice
 
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 2]
+Mindermann & Teis         Expires 21 April 2021                 [Page 2]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    5.  Publication Format and Distribution . . . . . . . . . . . . .  17
@@ -165,9 +165,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 3]
+Mindermann & Teis         Expires 21 April 2021                 [Page 3]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 1.1.  Motivation
@@ -221,9 +221,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 4]
+Mindermann & Teis         Expires 21 April 2021                 [Page 4]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    can change their default cryptography algorithms but still parse the
@@ -277,9 +277,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 5]
+Mindermann & Teis         Expires 21 April 2021                 [Page 5]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  Centralized and regularly updated single source of truth for
@@ -333,9 +333,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 6]
+Mindermann & Teis         Expires 21 April 2021                 [Page 6]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    Possible secure usage:
@@ -389,9 +389,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 7]
+Mindermann & Teis         Expires 21 April 2021                 [Page 7]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  SHAKE256 (TEMPORARY - registered 2019-08-13, expires
@@ -445,9 +445,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 8]
+Mindermann & Teis         Expires 21 April 2021                 [Page 8]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    The only expected input parameters for signing:
@@ -501,9 +501,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021                [Page 9]
+Mindermann & Teis         Expires 21 April 2021                 [Page 9]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
       -  There must be a guideline on how to determine broad
@@ -557,9 +557,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 10]
+Mindermann & Teis         Expires 21 April 2021                [Page 10]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
          o  The Secure Crypto Config must allow non-experts to find
@@ -613,9 +613,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 11]
+Mindermann & Teis         Expires 21 April 2021                [Page 11]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
       -  The Secure Crypto Config should be protected against attackers
@@ -669,9 +669,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 12]
+Mindermann & Teis         Expires 21 April 2021                [Page 12]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 3.4.  Security Level 4
@@ -725,9 +725,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 13]
+Mindermann & Teis         Expires 21 April 2021                [Page 13]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 3.6.3.  Constrained Devices
@@ -781,9 +781,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 14]
+Mindermann & Teis         Expires 21 April 2021                [Page 14]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  The attacker has access to the system used for cryptography
@@ -837,9 +837,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 15]
+Mindermann & Teis         Expires 21 April 2021                [Page 15]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  (3) Six months *Publication phase* ensures the publication of the
@@ -893,9 +893,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 16]
+Mindermann & Teis         Expires 21 April 2021                [Page 16]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 4.1.3.  Requirements for Selection of Cryptography Algorithm and
@@ -949,9 +949,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 17]
+Mindermann & Teis         Expires 21 April 2021                [Page 17]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 5.1.  Versioning
@@ -1005,9 +1005,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 18]
+Mindermann & Teis         Expires 21 April 2021                [Page 18]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  Distinct and *constantly available reference* where all parameters
@@ -1061,9 +1061,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 19]
+Mindermann & Teis         Expires 21 April 2021                [Page 19]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    Used registries must define all required parameters for an algorithm
@@ -1117,9 +1117,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 20]
+Mindermann & Teis         Expires 21 April 2021                [Page 20]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  SecurityLevel: Contains the number of the corresponding Security
@@ -1173,9 +1173,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 21]
+Mindermann & Teis         Expires 21 April 2021                [Page 21]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 5.6.  Official Secure Crypto Config Repository
@@ -1229,9 +1229,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 22]
+Mindermann & Teis         Expires 21 April 2021                [Page 22]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    scc-repo
@@ -1285,9 +1285,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 23]
+Mindermann & Teis         Expires 21 April 2021                [Page 23]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  [ ] Can two signatures be put in one signature file?  Should they
@@ -1341,9 +1341,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 24]
+Mindermann & Teis         Expires 21 April 2021                [Page 24]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    1.  Check if the path to the Secure Crypto Configs is a valid one.
@@ -1397,9 +1397,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 25]
+Mindermann & Teis         Expires 21 April 2021                [Page 25]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
        desired use case.  In this case the specified algorithm is used.
@@ -1453,9 +1453,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 26]
+Mindermann & Teis         Expires 21 April 2021                [Page 26]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 6.3.  Application Programming Interface (API)
@@ -1509,9 +1509,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 27]
+Mindermann & Teis         Expires 21 April 2021                [Page 27]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    chosen on the base of the corresponding system.  That kind of
@@ -1565,9 +1565,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 28]
+Mindermann & Teis         Expires 21 April 2021                [Page 28]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 8.  Cryptography Algorithm Standards Recommendation
@@ -1621,9 +1621,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 29]
+Mindermann & Teis         Expires 21 April 2021                [Page 29]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
 9.4.  General Security Considerations
@@ -1677,9 +1677,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 30]
+Mindermann & Teis         Expires 21 April 2021                [Page 30]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    *  *Publication:* After the publication of the Secure Crypto Config a
@@ -1733,9 +1733,9 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 31]
+Mindermann & Teis         Expires 21 April 2021                [Page 31]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    [AESNI]    Gueron, S., "Intel Advanced Encryption Standard (AES)
@@ -1789,9 +1789,9 @@ A.1.  JSON Secure Crypto Config
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 32]
+Mindermann & Teis         Expires 21 April 2021                [Page 32]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    {
@@ -1845,330 +1845,330 @@ Appendix B.  Example Java Interface using Secure Crypto Config
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 33]
+Mindermann & Teis         Expires 21 April 2021                [Page 33]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
-   package org.securecryptoconfig;
+package org.securecryptoconfig;
 
-   import java.nio.charset.Charset;
-   import java.security.InvalidKeyException;
-   import org.securecryptoconfig.SCCKey.KeyType;
-   import org.securecryptoconfig.SCCKey.KeyUseCase;
+import java.nio.charset.Charset;
+import java.security.InvalidKeyException;
+import org.securecryptoconfig.SCCKey.KeyType;
+import org.securecryptoconfig.SCCKey.KeyUseCase;
 
-   import COSE.CoseException;
+import COSE.CoseException;
 
-   public abstract interface SecureCryptoConfigInterface {
+public abstract interface SecureCryptoConfigInterface {
 
-           //Symmetric
+        //Symmetric
 
-           public AbstractSCCCiphertext encryptSymmetric(AbstractSCCKey key, PlaintextContainerInterface plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
-
-
-           public AbstractSCCCiphertext encryptSymmetric(AbstractSCCKey key, byte[] plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public AbstractSCCCiphertext encryptSymmetric(AbstractSCCKey key, PlaintextContainerInterface plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public AbstractSCCCiphertext reEncryptSymmetric(AbstractSCCKey key, AbstractSCCCiphertext ciphertext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public AbstractSCCCiphertext encryptSymmetric(AbstractSCCKey key, byte[] plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public PlaintextContainerInterface decryptSymmetric(AbstractSCCKey key, AbstractSCCCiphertext sccciphertext)
-                           throws CoseException, InvalidKeyException;
-
-           // Asymmetric
-
-           public AbstractSCCCiphertext encryptAsymmetric(AbstractSCCKey key, PlaintextContainerInterface plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public AbstractSCCCiphertext reEncryptSymmetric(AbstractSCCKey key, AbstractSCCCiphertext ciphertext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public AbstractSCCCiphertext encryptAsymmetric(AbstractSCCKey key, byte[] plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public PlaintextContainerInterface decryptSymmetric(AbstractSCCKey key, AbstractSCCCiphertext sccciphertext)
+                        throws CoseException, InvalidKeyException;
+
+        // Asymmetric
+
+        public AbstractSCCCiphertext encryptAsymmetric(AbstractSCCKey key, PlaintextContainerInterface plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public AbstractSCCCiphertext reEncryptAsymmetric(AbstractSCCKey key, AbstractSCCCiphertext ciphertext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public AbstractSCCCiphertext encryptAsymmetric(AbstractSCCKey key, byte[] plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public PlaintextContainerInterface decryptAsymmetric(AbstractSCCKey key, AbstractSCCCiphertext ciphertext)
-                           throws CoseException, InvalidKeyException, SCCException;
-
-           // Hashing
-
-           public AbstractSCCHash hash(PlaintextContainerInterface plaintext) throws CoseException, SCCException;
+        public AbstractSCCCiphertext reEncryptAsymmetric(AbstractSCCKey key, AbstractSCCCiphertext ciphertext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
+        public PlaintextContainerInterface decryptAsymmetric(AbstractSCCKey key, AbstractSCCCiphertext ciphertext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
-Mindermann & Teis       Expires 27 February 2021               [Page 34]
+        // Hashing
+
+        public AbstractSCCHash hash(PlaintextContainerInterface plaintext) throws CoseException, SCCException;
+
+
+
+Mindermann & Teis         Expires 21 April 2021                [Page 34]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
-           public AbstractSCCHash hash(byte[] plaintext) throws CoseException, SCCException;
+        public AbstractSCCHash hash(byte[] plaintext) throws CoseException, SCCException;
 
 
-           public AbstractSCCHash updateHash(PlaintextContainerInterface plaintext, AbstractSCCHash hash)
-                           throws CoseException, SCCException;
+        public AbstractSCCHash updateHash(PlaintextContainerInterface plaintext, AbstractSCCHash hash)
+                        throws CoseException, SCCException;
 
 
-           public AbstractSCCHash updateHash(byte[] plaintext, AbstractSCCHash hash) throws CoseException, SCCException;
+        public AbstractSCCHash updateHash(byte[] plaintext, AbstractSCCHash hash) throws CoseException, SCCException;
 
 
-           public boolean validateHash(PlaintextContainerInterface plaintext, AbstractSCCHash hash)
-                           throws CoseException, SCCException;
+        public boolean validateHash(PlaintextContainerInterface plaintext, AbstractSCCHash hash)
+                        throws CoseException, SCCException;
 
 
-           public boolean validateHash(byte[] plaintext, AbstractSCCHash hash) throws CoseException, SCCException;
+        public boolean validateHash(byte[] plaintext, AbstractSCCHash hash) throws CoseException, SCCException;
 
-           // Digital Signature
+        // Digital Signature
 
-           public AbstractSCCSignature sign(AbstractSCCKey key, PlaintextContainerInterface plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
-
-
-           public AbstractSCCSignature sign(AbstractSCCKey key, byte[] plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public AbstractSCCSignature sign(AbstractSCCKey key, PlaintextContainerInterface plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public AbstractSCCSignature updateSignature(AbstractSCCKey key, PlaintextContainerInterface plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public AbstractSCCSignature sign(AbstractSCCKey key, byte[] plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public AbstractSCCSignature updateSignature(AbstractSCCKey key, byte[] plaintext)
-                           throws CoseException, InvalidKeyException, SCCException;
+        public AbstractSCCSignature updateSignature(AbstractSCCKey key, PlaintextContainerInterface plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public boolean validateSignature(AbstractSCCKey key, AbstractSCCSignature signature)
-                           throws InvalidKeyException, SCCException;
+        public AbstractSCCSignature updateSignature(AbstractSCCKey key, byte[] plaintext)
+                        throws CoseException, InvalidKeyException, SCCException;
 
 
-           public boolean validateSignature(AbstractSCCKey key, byte[] signature) throws InvalidKeyException, SCCException;
-
-           // Password Hashing
-
-
-           public AbstractSCCPasswordHash passwordHash(PlaintextContainerInterface password)
-                           throws CoseException, SCCException;
+        public boolean validateSignature(AbstractSCCKey key, AbstractSCCSignature signature)
+                        throws InvalidKeyException, SCCException;
 
 
-           public AbstractSCCPasswordHash passwordHash(byte[] password) throws CoseException, SCCException;
+        public boolean validateSignature(AbstractSCCKey key, byte[] signature) throws InvalidKeyException, SCCException;
+
+        // Password Hashing
+
+
+        public AbstractSCCPasswordHash passwordHash(PlaintextContainerInterface password)
+                        throws CoseException, SCCException;
+
+
+        public AbstractSCCPasswordHash passwordHash(byte[] password) throws CoseException, SCCException;
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 35]
+Mindermann & Teis         Expires 21 April 2021                [Page 35]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
-           public boolean validatePasswordHash(PlaintextContainerInterface password, AbstractSCCPasswordHash passwordhash)
-                           throws CoseException, SCCException;
+        public boolean validatePasswordHash(PlaintextContainerInterface password, AbstractSCCPasswordHash passwordhash)
+                        throws CoseException, SCCException;
 
 
-           public boolean validatePasswordHash(byte[] password, AbstractSCCPasswordHash passwordhash)
-                           throws CoseException, SCCException;
-   }
+        public boolean validatePasswordHash(byte[] password, AbstractSCCPasswordHash passwordhash)
+                        throws CoseException, SCCException;
+}
 
 
-     abstract interface PlaintextContainerInterface {
+  abstract interface PlaintextContainerInterface {
 
 
-           public abstract byte[] toBytes();
+        public abstract byte[] toBytes();
 
 
-           public abstract String toString(Charset c);
+        public abstract String toString(Charset c);
 
 
-           @Override
-           public abstract String toString();
+        @Override
+        public abstract String toString();
 
 
-           public abstract boolean validateHash(AbstractSCCHash hash) throws SCCException;
+        public abstract boolean validateHash(AbstractSCCHash hash) throws SCCException;
 
 
-           public abstract boolean validatePasswordHash(AbstractSCCPasswordHash passwordHash) throws SCCException;
+        public abstract boolean validatePasswordHash(AbstractSCCPasswordHash passwordHash) throws SCCException;
 
 
-           public abstract AbstractSCCCiphertext encryptSymmetric(AbstractSCCKey key) throws SCCException;
+        public abstract AbstractSCCCiphertext encryptSymmetric(AbstractSCCKey key) throws SCCException;
 
 
-           public abstract AbstractSCCCiphertext encryptAsymmetric(AbstractSCCKey key) throws SCCException;
+        public abstract AbstractSCCCiphertext encryptAsymmetric(AbstractSCCKey key) throws SCCException;
 
 
-           public abstract AbstractSCCSignature sign(AbstractSCCKey key) throws SCCException;
+        public abstract AbstractSCCSignature sign(AbstractSCCKey key) throws SCCException;
 
 
-           public abstract AbstractSCCHash hash() throws SCCException;
+        public abstract AbstractSCCHash hash() throws SCCException;
 
 
-           public abstract AbstractSCCPasswordHash passwordHash() throws SCCException;
+        public abstract AbstractSCCPasswordHash passwordHash() throws SCCException;
 
-   }
-
-
-    abstract class AbstractSCCCiphertext {
-
-           byte[] msg;
+}
 
 
+ abstract class AbstractSCCCiphertext {
 
-Mindermann & Teis       Expires 27 February 2021               [Page 36]
+        byte[] msg;
+
+
+
+Mindermann & Teis         Expires 21 April 2021                [Page 36]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
-           protected AbstractSCCCiphertext(byte[] msg) {
-                   this.msg = msg;
-           }
+        protected AbstractSCCCiphertext(byte[] msg) {
+                this.msg = msg;
+        }
 
 
-           public abstract byte[] toBytes();
+        public abstract byte[] toBytes();
 
 
-           @Override
-           public abstract String toString();
+        @Override
+        public abstract String toString();
 
 
-           public abstract PlaintextContainerInterface decryptSymmetric(AbstractSCCKey key) throws SCCException;
+        public abstract PlaintextContainerInterface decryptSymmetric(AbstractSCCKey key) throws SCCException;
 
 
-           public abstract PlaintextContainerInterface decryptAsymmetric(AbstractSCCKey key) throws SCCException;
+        public abstract PlaintextContainerInterface decryptAsymmetric(AbstractSCCKey key) throws SCCException;
 
 
-           public abstract AbstractSCCCiphertext reEncryptSymmetric(AbstractSCCKey key) throws SCCException;
+        public abstract AbstractSCCCiphertext reEncryptSymmetric(AbstractSCCKey key) throws SCCException;
 
 
-           public abstract AbstractSCCCiphertext reEncryptAsymmetric(AbstractSCCKey key) throws SCCException;
+        public abstract AbstractSCCCiphertext reEncryptAsymmetric(AbstractSCCKey key) throws SCCException;
 
-   }
-
-
-    abstract class AbstractSCCKey {
-
-           KeyType type;
-           byte[] privateKey, publicKey;
-           String algorithm;
-
-           protected AbstractSCCKey(KeyType type, byte[] publicKey, byte[] privateKey, String algorithm) {
-                   this.type = type;
-                   this.publicKey = publicKey;
-                   this.privateKey = privateKey;
-                   this.algorithm = algorithm;
-
-           }
+}
 
 
-           public abstract byte[] toBytes() throws InvalidKeyException;
+ abstract class AbstractSCCKey {
+
+        KeyType type;
+        byte[] privateKey, publicKey;
+        String algorithm;
+
+        protected AbstractSCCKey(KeyType type, byte[] publicKey, byte[] privateKey, String algorithm) {
+                this.type = type;
+                this.publicKey = publicKey;
+                this.privateKey = privateKey;
+                this.algorithm = algorithm;
+
+        }
 
 
-           public abstract byte[] getPublicKeyBytes() throws InvalidKeyException;
+        public abstract byte[] toBytes() throws InvalidKeyException;
 
 
-           public abstract byte[] getPrivateKeyBytes() throws InvalidKeyException;
+        public abstract byte[] getPublicKeyBytes() throws InvalidKeyException;
+
+
+        public abstract byte[] getPrivateKeyBytes() throws InvalidKeyException;
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 37]
+Mindermann & Teis         Expires 21 April 2021                [Page 37]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
-           public abstract KeyType getKeyType();
+        public abstract KeyType getKeyType();
 
 
-           public abstract String getAlgorithm();
+        public abstract String getAlgorithm();
 
-   }
-
-
-   abstract class AbstractSCCHash {
-
-           byte[] hashMsg;
+}
 
 
-           protected AbstractSCCHash(byte[] hashMsg) {
-                   this.hashMsg = hashMsg;
-           }
+abstract class AbstractSCCHash {
+
+        byte[] hashMsg;
 
 
-           public abstract byte[] toBytes();
+        protected AbstractSCCHash(byte[] hashMsg) {
+                this.hashMsg = hashMsg;
+        }
 
 
-           @Override
-           public abstract String toString();
+        public abstract byte[] toBytes();
 
 
-           public abstract boolean validateHash(PlaintextContainerInterface plaintext) throws SCCException;
+        @Override
+        public abstract String toString();
 
 
-           public abstract boolean validateHash(byte[] plaintext) throws SCCException;
+        public abstract boolean validateHash(PlaintextContainerInterface plaintext) throws SCCException;
 
 
-           public abstract AbstractSCCHash updateHash(PlaintextContainerInterface plaintext) throws SCCException;
+        public abstract boolean validateHash(byte[] plaintext) throws SCCException;
 
 
-           public abstract AbstractSCCHash updateHash(byte[] plaintext) throws SCCException;
-
-   }
+        public abstract AbstractSCCHash updateHash(PlaintextContainerInterface plaintext) throws SCCException;
 
 
-   abstract class AbstractSCCPasswordHash {
+        public abstract AbstractSCCHash updateHash(byte[] plaintext) throws SCCException;
 
-           byte[] hashMsg;
-
-
-           protected AbstractSCCPasswordHash(byte[] hashMsg) {
-                   this.hashMsg = hashMsg;
-           }
+}
 
 
+abstract class AbstractSCCPasswordHash {
+
+        byte[] hashMsg;
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 38]
+        protected AbstractSCCPasswordHash(byte[] hashMsg) {
+                this.hashMsg = hashMsg;
+        }
+
+
+
+
+Mindermann & Teis         Expires 21 April 2021                [Page 38]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
-           public abstract byte[] toBytes();
+        public abstract byte[] toBytes();
 
 
-           @Override
-           public abstract String toString();
+        @Override
+        public abstract String toString();
 
 
-           public abstract boolean validatePasswordHash(PlaintextContainerInterface password) throws SCCException;
+        public abstract boolean validatePasswordHash(PlaintextContainerInterface password) throws SCCException;
 
 
-           public abstract boolean validatePasswordHash(byte[] password) throws SCCException;
+        public abstract boolean validatePasswordHash(byte[] password) throws SCCException;
 
-   }
-
-
-   abstract class AbstractSCCSignature {
-           byte[] signatureMsg;
-
-           protected AbstractSCCSignature(byte[] signatureMasg) {
-                   this.signatureMsg = signatureMasg;
-           }
+}
 
 
-           public abstract byte[] toBytes();
+abstract class AbstractSCCSignature {
+        byte[] signatureMsg;
+
+        protected AbstractSCCSignature(byte[] signatureMasg) {
+                this.signatureMsg = signatureMasg;
+        }
 
 
-           @Override
-           public abstract String toString();
+        public abstract byte[] toBytes();
 
 
-           public abstract boolean validateSignature(AbstractSCCKey key) throws SCCException;
+        @Override
+        public abstract String toString();
 
 
-           public abstract AbstractSCCSignature updateSignature(PlaintextContainerInterface plaintext, AbstractSCCKey key)
-                           throws SCCException;
+        public abstract boolean validateSignature(AbstractSCCKey key) throws SCCException;
 
-   }
 
-                    Figure 5: Example for a JAVA SCC API
+        public abstract AbstractSCCSignature updateSignature(PlaintextContainerInterface plaintext, AbstractSCCKey key)
+                        throws SCCException;
+
+}
+
+                 Figure 5: Example for a JAVA SCC API
 
 Acknowledgments
 
@@ -2181,9 +2181,9 @@ Authors' Addresses
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 39]
+Mindermann & Teis         Expires 21 April 2021                [Page 39]
 
-Internet-Draft                     SCC                       August 2020
+Internet-Draft                     SCC                      October 2020
 
 
    Kai Mindermann
@@ -2237,4 +2237,4 @@ Internet-Draft                     SCC                       August 2020
 
 
 
-Mindermann & Teis       Expires 27 February 2021               [Page 40]
+Mindermann & Teis         Expires 21 April 2021                [Page 40]
