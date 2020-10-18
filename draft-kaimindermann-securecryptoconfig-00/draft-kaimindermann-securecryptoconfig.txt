@@ -2,7 +2,7 @@
 
 
 
-Crypto Forum Research Group                                K. Mindermann
+cfrg                                                       K. Mindermann
 Internet-Draft                                           iC Consult GmbH
 Intended status: Informational                                   L. Teis
 Expires: 21 April 2021                                   18 October 2020
