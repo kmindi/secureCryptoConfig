@@ -645,8 +645,8 @@ Internet-Draft                     SCC                      October 2020
 3.  Security Levels
 
    The Secure Crypto Config must be able to provide a secure parameter
-   set for different security levels.  These security levels depending
-   on the following security constraints: *Information classification
+   set for different security levels.  These security levels depend on
+   the following security constraints: *Information classification
    (Secret, Confidential), Longevity (less than one day, more than a
    day), Constrained devices (constrained, not constrained)*. They are
    defined in Section 3.6 below.  The Secure Crypto Config provides 5
@@ -1603,7 +1603,7 @@ Internet-Draft                     SCC                      October 2020
    *  The operators of the Secure Crypto Config must ensure that
       potential unauthorized parties are not able to manipulate the
       parameters of the published Secure Crypto Config.  Countermeasures
-      to this are in place by utilizing gits gpg signatures and
+      to this are in place by utilizing git's gpg signatures and
       integrity as well as signatures for the published Secure Crypto
       Config files as well.
 
