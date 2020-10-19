@@ -5,7 +5,7 @@
 cfrg                                                       K. Mindermann
 Internet-Draft                                           iC Consult GmbH
 Intended status: Informational                                   L. Teis
-Expires: 21 April 2021                                   18 October 2020
+Expires: 22 April 2021                                   19 October 2020
 
 
                           Secure Crypto Config
@@ -53,12 +53,12 @@ Status of This Memo
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 1]
+Mindermann & Teis         Expires 22 April 2021                 [Page 1]
 
 Internet-Draft                     SCC                      October 2020
 
 
-   This Internet-Draft will expire on 21 April 2021.
+   This Internet-Draft will expire on 22 April 2021.
 
 Copyright Notice
 
@@ -109,7 +109,7 @@ Table of Contents
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 2]
+Mindermann & Teis         Expires 22 April 2021                 [Page 2]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -122,7 +122,7 @@ Internet-Draft                     SCC                      October 2020
        5.3.2.  Utilized Algorithm Registries . . . . . . . . . . . .  19
      5.4.  Data Structures . . . . . . . . . . . . . . . . . . . . .  20
      5.5.  Human readable format . . . . . . . . . . . . . . . . . .  21
-     5.6.  Official Secure Crypto Config Repository  . . . . . . . .  22
+     5.6.  Official Secure Crypto Config Repository  . . . . . . . .  21
        5.6.1.  Location of Secure Crypto Config Repository . . . . .  22
        5.6.2.  Format of Secure Crypto Config Repository . . . . . .  22
        5.6.3.  Integrity/Signing process . . . . . . . . . . . . . .  23
@@ -165,7 +165,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 3]
+Mindermann & Teis         Expires 22 April 2021                 [Page 3]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -211,7 +211,7 @@ Internet-Draft                     SCC                      October 2020
    cryptography work by default and in the intended secure way.
 
    The Secure Crypto Config approaches this problem first by providing a
-   regular updated list of secure cryptography algorithms and
+   regularly updated list of secure cryptography algorithms and
    corresponding parameters for common cryptography use cases.  Second,
    it provides a standardized Application Programming Interface which
    provides the Secure Crypto Config in a misuse resistant way to
@@ -221,7 +221,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 4]
+Mindermann & Teis         Expires 22 April 2021                 [Page 4]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -231,8 +231,8 @@ Internet-Draft                     SCC                      October 2020
    cryptography operations on it.
 
    Each of these approaches could be used on its own.  Yet, the
-   combination of them allows software to be more easy to maintain, more
-   compatible to other cryptography implementations and to future
+   combination of them allows software to be easier to maintain, more
+   compatible with other cryptography implementations and to future
    security developments, and most importantly more secure.
 
    The Secure Crypto Config makes common assumptions that are not true
@@ -277,7 +277,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 5]
+Mindermann & Teis         Expires 22 April 2021                 [Page 5]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -287,7 +287,7 @@ Internet-Draft                     SCC                      October 2020
       cryptography primitives and use cases.
 
    *  Both machine and human readable format to specify the above
-      mentioned cryptography algorithm/-parameter configuration.  The
+      mentioned cryptography algorithm/parameter configuration.  The
       format is also extensible to allow others (e.g. governmental or
       commercial organizations) to define their own set of cryptography
       configurations.
@@ -333,7 +333,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 6]
+Mindermann & Teis         Expires 22 April 2021                 [Page 6]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -346,7 +346,7 @@ Internet-Draft                     SCC                      October 2020
 
 1.3.2.2.  Asymmetric Encryption
 
-   Beside symmetric encryption is asymmetric encryption another
+   Besides symmetric encryption is asymmetric encryption another
    important cryptographic primitive to considered.
 
    The only expected input parameters for encryption:
@@ -371,7 +371,7 @@ Internet-Draft                     SCC                      October 2020
 
 1.3.2.3.  Hashing
 
-   Hashing is an important cryptographic primitives and is often needed
+   Hashing is an important cryptographic primitive and is often needed
    as a part of many other cryptographic use cases e.g. password
    derivation.
 
@@ -389,7 +389,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 7]
+Mindermann & Teis         Expires 22 April 2021                 [Page 7]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -404,7 +404,7 @@ Internet-Draft                     SCC                      October 2020
    prevent attackers from guessing/brute-forcing passwords from leaks or
    against the live system.  E.g. it is totally fine for users if the
    login takes 0.1 seconds instead of microseconds.  This results in
-   special families of hash algorithms which offer additional tuning
+   special families of hash algorithms that offer additional tuning
    parameters.
 
    The only expected input parameters by cryptography users:
@@ -445,7 +445,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 8]
+Mindermann & Teis         Expires 22 April 2021                 [Page 8]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -476,7 +476,7 @@ Internet-Draft                     SCC                      October 2020
 
 2.1.  Requirements
 
-   In the following all requirements are listed that regard the Secure
+   In the following, all requirements are listed that regard the Secure
    Crypto Config or the Secure Crypto Config Interface.
 
    *  Security Level Requirements: The Secure Crypto Config should
@@ -484,8 +484,8 @@ Internet-Draft                     SCC                      October 2020
       classification levels and longevity.  Additionally, cryptography
       operations could not or much slower perform on constrained
       devices, which should also be handled with the security levels.
-      For each security level the consensus finding process and entities
-      shall publish a distinct secure crypto config.
+      For each security level, the consensus finding process and
+      entities shall publish a distinct secure crypto config.
 
    *  Consensus Finding Process and entities:
 
@@ -501,7 +501,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                 [Page 9]
+Mindermann & Teis         Expires 22 April 2021                 [Page 9]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -519,7 +519,7 @@ Internet-Draft                     SCC                      October 2020
 
          o  Standardized unique and distinct names for (1) cryptography
             algorithms (2) their parameters and (3) the combination of
-            the algorithm with set parameters.  Otherwise ambiguity
+            the algorithm with set parameters.  Otherwise, ambiguity
             would make it harder for developers and cryptography
             implementors to make correct and secure choices.
 
@@ -528,7 +528,7 @@ Internet-Draft                     SCC                      October 2020
             Secure Crypto Config.
 
          o  There must be a deprecation process that ensures usage of
-            outdated/insecure Crypto Configurations ceases.
+            outdated/insecure Crypto Configurations cases.
 
          o  There must be an official source where this Secure Crypto
             Config is maintained and can be obtained from (e.g. via the
@@ -557,7 +557,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 10]
+Mindermann & Teis         Expires 22 April 2021                [Page 10]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -580,7 +580,7 @@ Internet-Draft                     SCC                      October 2020
             was used (e.g. in Continuous Integration platforms)
 
          o  Must be easy to verify the authenticity of the Secure Crypto
-            Config (e.g. is this really what the CFRG has published)
+            Config (e.g. is this really what the CFRG has published?)
 
    *  Cryptography library integration requirements:
 
@@ -593,8 +593,8 @@ Internet-Draft                     SCC                      October 2020
          for a cryptography library (e.g. should it be the one with the
          highest security level or _only_ a weaker one?)
 
-      -  Recommendation what should a cryptography library do if it can
-         not support the parameters specified in the latest Secure
+      -  Recommendation of what should a cryptography library do if it
+         can not support the parameters specified in the latest Secure
          Crypto Config.  (E.g. key size for RSA would be n*2 and the
          library supports only n)
 
@@ -613,7 +613,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 11]
+Mindermann & Teis         Expires 22 April 2021                [Page 11]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -645,8 +645,8 @@ Internet-Draft                     SCC                      October 2020
 3.  Security Levels
 
    The Secure Crypto Config must be able to provide a secure parameter
-   set for different security levels.  These security levels depend on
-   the following security constraints: *Information classification
+   set for different security levels.  These security levels depending
+   on the following security constraints: *Information classification
    (Secret, Confidential), Longevity (less than one day, more than a
    day), Constrained devices (constrained, not constrained)*. They are
    defined in Section 3.6 below.  The Secure Crypto Config provides 5
@@ -669,7 +669,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 12]
+Mindermann & Teis         Expires 22 April 2021                [Page 12]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -694,7 +694,7 @@ Internet-Draft                     SCC                      October 2020
    considers only *Confidential* and *Secret* for its standardized
    security levels.  Further levels with other classifications can be
    added by other organizations.  Additionally, in common (non-
-   governmental) use cases data is not labelled with an information
+   governmental) use cases data is not labeled with an information
    class.  Hence, often only one class is chosen for the cryptography
    processing of all data.
 
@@ -707,7 +707,7 @@ Internet-Draft                     SCC                      October 2020
 
    The time how long information has to be kept confidential can
    influence cryptography parameters a lot.  Usually what you talked
-   about with your friends should be kept confidential for a life time.
+   about with your friends should be kept confidential for a lifetime.
    Yet, a public trade transaction must only be confidential until the
    trade was executed which can happen in milliseconds.  It directly
    influences a very important attacker resource: The time an attacker
@@ -725,7 +725,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 13]
+Mindermann & Teis         Expires 22 April 2021                [Page 13]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -739,16 +739,16 @@ Internet-Draft                     SCC                      October 2020
    or instruction sets like [AESNI].  Detailed discussion and
    definitions can be found in [RFC7228].  Yet, their definitions are
    too concrete to be used in the Secure Crypto Config's standardized
-   security levels.  Therefore, the Secure Crypto Config uses defines
+   security levels.  Therefore, the Secure Crypto Config defines
    constraint devices not based on concrete processing power (e.g. 100k
    instructions per second):
 
    A device is constrained when it has *multiple orders of magnitudes*
-   less resources than a current (not a new one, but broadly in use at
+   fewer resources than a current (not a new one, but broadly in use at
    the time of publication of a Secure Crypto Config!) standard personal
    computer.
 
-   For example if a current standard personal computer can encrypt with
+   For example, if a current standard personal computer can encrypt with
    1 GiB/s, a constrained device would be all devices that can only
    perform the same cryptography operation with less than 10 MiB/s.
    Resources can be everything important for cryptography like dedicated
@@ -781,7 +781,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 14]
+Mindermann & Teis         Expires 22 April 2021                [Page 14]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -791,7 +791,7 @@ Internet-Draft                     SCC                      October 2020
       obtaining secrets.
 
    *  The attacker can utilize very high-performance computing resources
-      such as super computers and distributed computing (e.g. this
+      such as supercomputers and distributed computing (e.g. this
       includes very high memory, storage, processing and networking
       performance)
 
@@ -800,18 +800,18 @@ Internet-Draft                     SCC                      October 2020
 
 4.  Consensus Finding Process and entities
 
-   To provide a Secure Crypto Config it is necessary to agree upon a
+   To provide a Secure Crypto Config, it is necessary to agree upon a
    secure and appropriate cryptographic parameter set for each security
    level (see Section 3).  This must happen in a common consensus
-   finding process which takes place during a regular intervals.  The
-   consensuns finding process is based on the established RFC process
+   finding process which takes place during regular intervals.  The
+   consensus finding process is based on the established RFC process
    during which the Secure Crypto Config Working Group decides in
    cooperation with the Crypto Forum Research Group (CFRG) and other
    institutions like the Bundesamt fuer Sicherheit in der
    Informationstechnik (BSI) or the National Institute of Standards and
    Technology (NIST) for a set of secure parameters.  After the
-   successful decision the agreed on parameters can be added in the
-   defined pulibcation data structures (see Section 5.4) and provided on
+   successful decision, the agreed on parameters can be added in the
+   defined publication data structures (see Section 5.4) and provided on
    the repository platform.
 
 4.1.  Consensus Finding
@@ -837,7 +837,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 15]
+Mindermann & Teis         Expires 22 April 2021                [Page 15]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -849,8 +849,8 @@ Internet-Draft                     SCC                      October 2020
 
    During the Proposal phase the proposed algorithms and all necessary
    parameters should be submitted in table form for each security level
-   and defined cryptographic use case like proposed.  This table format
-   is simply structured and is easy to read by human as the Consensus
+   and defined cryptographic use case as proposed.  This table format is
+   simply structured and is easy to read by humans as the Consensus
    finding phase can only be done manually.  It is important that the
    parameters for each cryptographic use case depending on its security
    level can be found easily by the participants of the consensus
@@ -883,17 +883,17 @@ Internet-Draft                     SCC                      October 2020
    An applied emergency process results in the problem that currently
    used Secure Crypto Config Interface versions are no longer up-to-
    date, because they are still supporting the no longer secure
-   algorithms.  Therefore the corresponding algorithms need to be marked
-   as insecure.  If e.g. an proposed algorithm gets insecure this can be
-   marked inside the corresponding Secure Crypto Config IANA registry
-   entry as no longer proposed to make the users aware of its
+   algorithms.  Therefore, the corresponding algorithms need to be
+   marked as insecure.  If e.g. a proposed algorithm gets insecure this
+   can be marked inside the corresponding Secure Crypto Config IANA
+   registry entry as no longer proposed to make the users aware of its
    insecurity.  The Working Group itself can decide when to alter the
    Secure Crypto Config IANA registry.
 
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 16]
+Mindermann & Teis         Expires 22 April 2021                [Page 16]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -937,7 +937,7 @@ Internet-Draft                     SCC                      October 2020
 
 5.  Publication Format and Distribution
 
-   In general the Secure Crypto Config is published via JSON-files in an
+   In general the Secure Crypto Config is published via JSON files in an
    official repository.  The Secure Crypto Config also utilizes IANA
    registries.
 
@@ -949,16 +949,16 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 17]
+Mindermann & Teis         Expires 22 April 2021                [Page 17]
 
 Internet-Draft                     SCC                      October 2020
 
 
 5.1.  Versioning
 
-   The Secure Crypto Config Format is regularly published in a specific
-   year.  Therefore, the Secure Crypto Config format MUST use the
-   following versioning format: *YYYY-PATCH*. YYYY is a positive integer
+   The Secure Crypto Config is regularly published in a specific year.
+   Therefore, the Secure Crypto Config format MUST use the following
+   versioning format: *YYYY-PATCH*. YYYY is a positive integer
    describing the year (using the Gregorian calendar, and considering
    the year that has not ended in all time zones, cf. Anywhere on Earth
    Time) this specific Secure Crypto Config was published.  PATCH is a
@@ -967,7 +967,7 @@ Internet-Draft                     SCC                      October 2020
 
 5.2.  Naming
 
-   Naming of official released SCCs must follow this format:
+   The naming of official released SCCs must follow this format:
 
    "SCC_**Version**_LEVEL_**Security Level Number**"
 
@@ -975,9 +975,9 @@ Internet-Draft                     SCC                      October 2020
    first time (so no patch version) would be named:
    "SCC_2020-00_LEVEL_5"
 
-   Naming of files is not regulated, only the content is standards
+   The naming of files is not regulated, only the content is standard
    relevant.  Yet, the Secure Crypto Config Files should use the
-   mentioned naming convention as well adding a suffix (file type
+   mentioned naming convention as well as adding a suffix (file type
    ending) ".json" to prevent ambiguity and remove implementation
    choices:
 
@@ -1005,7 +1005,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 18]
+Mindermann & Teis         Expires 22 April 2021                [Page 18]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1013,7 +1013,7 @@ Internet-Draft                     SCC                      October 2020
    *  Distinct and *constantly available reference* where all parameters
       are unambiguously defined
 
-   *  (Optional) Short Description of the parameters
+   *  (Optional) Short description of the parameters
 
    Algorithm-Parameter-Identifier: MUST only consist of uppercase
    alphanumeric characters and underscores.  Depending on the use case
@@ -1046,7 +1046,7 @@ Internet-Draft                     SCC                      October 2020
 5.3.2.  Utilized Algorithm Registries
 
    The Secure Crypto Config can only propose cryptography algorithms and
-   parameters that have been standardized.  Therefore it refers to the
+   parameters that have been standardized.  Therefore, it refers to the
    following IANA registries:
 
    *  CBOR Object Signing and Encryption (COSE)
@@ -1061,7 +1061,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 19]
+Mindermann & Teis         Expires 22 April 2021                [Page 19]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1073,7 +1073,7 @@ Internet-Draft                     SCC                      October 2020
 
 5.4.  Data Structures
 
-   For each defined security level a distinct JSON-file must be
+   For each defined security level, a distinct JSON file must be
    provided.  These files must adhere to the common schema and shown in
    Figure 1 and described in the following.
 
@@ -1117,7 +1117,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 20]
+Mindermann & Teis         Expires 22 April 2021                [Page 20]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1158,34 +1158,32 @@ Internet-Draft                     SCC                      October 2020
 
 5.5.  Human readable format
 
-   The Secure Crypto Config can not only be used in an automatic way,
-   but also provide the cryptography algorithms and parameters for
-   humans.  The human readable format must be derived from the JSON-
-   files both to protect from copy-paste-errors and to validate the
-   cryptographic signatures.  Yet, the human readable format or
-   publication page itself must not be cryptographically protected.
-   There should be one accessible resource, e.g. a webpage, where the
-   source format (JSON-files) are automatically used for displaying them
-   in appropriate ways (e.g. tables with various sorting and searching
-   options).
+   The Secure Crypto Config can not only be used automatically but also
+   provide the cryptography algorithms and parameters for humans.  The
+   human readable format must be derived from the JSON files both to
+   protect from copy-paste-errors and to validate the cryptographic
+   signatures.  Yet, the human readable format or publication page
+   itself must not be cryptographically protected.  There should be one
+   accessible resource, e.g. a webpage, where the source format (JSON
+   files) are automatically used for displaying them in appropriate ways
+   (e.g. tables with various sorting and searching options).
+
+5.6.  Official Secure Crypto Config Repository
 
 
 
 
-
-Mindermann & Teis         Expires 21 April 2021                [Page 21]
+Mindermann & Teis         Expires 22 April 2021                [Page 21]
 
 Internet-Draft                     SCC                      October 2020
 
 
-5.6.  Official Secure Crypto Config Repository
-
 5.6.1.  Location of Secure Crypto Config Repository
 
    The needed Secure Crypto Config files should be published at an
-   official Github repository.  There all current versions will be
+   official GitHub repository.  There, all current versions will be
    provided during the interval of the Publication phase (see
-   Section 4.1.1).  Additionally all previously published files are
+   Section 4.1.1).  Additionally, all previously published files are
    still stored at this location even if new versions are published.
 
 5.6.2.  Format of Secure Crypto Config Repository
@@ -1229,7 +1227,9 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 22]
+
+
+Mindermann & Teis         Expires 22 April 2021                [Page 22]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1285,7 +1285,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 23]
+Mindermann & Teis         Expires 22 April 2021                [Page 23]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1293,9 +1293,9 @@ Internet-Draft                     SCC                      October 2020
    *  [ ] Can two signatures be put in one signature file?  Should they
       be put in the same file?
 
-   *  [ ] Public Key distribution?! (In Github repo?)
+   *  [ ] Public Key distribution?! (In GitHub repo?)
 
-   Each JSON-file should be accompanied by at least two signatures.
+   Each JSON file should be accompanied by at least two signatures.
    Both signatures are stored in different files on the same level as
    their corresponding Secure Crypto Config file to reduce the parsing
    effort.  The signatures should be generated by entities defined by
@@ -1309,7 +1309,7 @@ Internet-Draft                     SCC                      October 2020
 
    This section describes the programming interface that provides the
    Secure Crypto Config.  The Secure Crypto Config Interface is generic
-   and describes the API that should to be used by each programming
+   and describes the API that should be used by each programming
    language.
 
 6.1.  Semantic Versioning
@@ -1329,7 +1329,7 @@ Internet-Draft                     SCC                      October 2020
    Config: - The preferred option is to use the Secure Crypto Configs
    that will be delivered within the Interface.  In each new Interface
    version the current Secure Crypto Configs will be added such that
-   always the newest Secure Crypto Configs at the time of the Interface
+   always the latest Secure Crypto Configs at the time of the Interface
    release will be supported.  Previous Secure Crypto Configs will
    remain inside the Interface such that also older ones can still be
    used.  - Another option is to define a specific path to your own/
@@ -1341,7 +1341,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 24]
+Mindermann & Teis         Expires 22 April 2021                [Page 24]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1359,14 +1359,14 @@ Internet-Draft                     SCC                      October 2020
        one is given, check if the signature is valid for the
        corresponding file.
 
-   5.  Every files with a valid signature will be parsed and further
+   5.  Every file with a valid signature will be parsed and further
        processed.
 
    The parsing of each valid JSON file must be done as follows:
 
-   1.  Readout all informations of all JSON files that need to be
+   1.  Read out all information of all JSON files that need to be
        considered.  The information of each file is stored in a
-       correspoding object.  With this procedure all JSON files need to
+       corresponding object.  With this procedure all JSON files need to
        be read only once which will contribute to the performance.
 
    2.  Parsing of security level: Check if it is a positive integer.
@@ -1391,13 +1391,13 @@ Internet-Draft                     SCC                      October 2020
    5.  The unique algorithm identifiers for the execution of a specific
        cryptographic use case will be fetched from the corresponding
        object (representing the JSON file determined beforehand) at the
-       time the users invokes a method for a specific cryptographic use
+       time the users invoke a method for a specific cryptographic use
        case.  The Interface will also provide a possibility to choose a
        specific algorithm (out of the supported ones) for executing the
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 25]
+Mindermann & Teis         Expires 22 April 2021                [Page 25]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1416,9 +1416,9 @@ Internet-Draft                     SCC                      October 2020
    that it uses (a copy of) the recent Secure Crypto Config repository.
 
    The Secure Crypto Config will be stored inside the subfolder "scc-
-   configs" which should be located in the Interface's "src"-folder if
+   configs" which should be located in the Interface "src"-folder if
    existent.  The structure of the "scc-configs" folder will be the same
-   as in the described hierarchy of the Github repository.  In any new
+   as in the described hierarchy of the GitHub repository.  In any new
    version of the Interface the latest published Secure Crypto Config
    and its signatures must be used.
 
@@ -1431,8 +1431,8 @@ Internet-Draft                     SCC                      October 2020
    It is also possible to use a different path to the Secure Crypto
    Configs.  As also derived versions of the Secure Crypto Config for
    specific needs should be supported it will also be feasible to define
-   a path to own or derived files which differentiate from the default
-   "src/scc-configs/configs" folder.  For this case a method for setting
+   a path to own or derived files that differentiate from the default
+   "src/scc-configs/configs" folder.  In this case, a method for setting
    and using a specific path must be provided by the Interface.
 
 6.2.3.  Integrity Check
@@ -1442,10 +1442,10 @@ Internet-Draft                     SCC                      October 2020
 
    The check for valid signature of the Secure Crypto Configs is always
    made before every actual usage of the Interface functionalities.  In
-   this way it is possible to guarantee that the entity using the
+   this way, it is possible to guarantee that the entity using the
    Interface only works with valid Secure Crypto Configs and circumvents
    the risk of forged file contents.  The public key needed for validity
-   can be found in the official Github repository.  If own derived
+   can be found in the official GitHub repository.  If own derived
    Secure Crypto Configs are created than it can be possible that no
    validation process is needed for these files.
 
@@ -1453,7 +1453,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 26]
+Mindermann & Teis         Expires 22 April 2021                [Page 26]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1470,7 +1470,7 @@ Internet-Draft                     SCC                      October 2020
    *  [ ] TODO What is with parameters that have to be chosen during
       runtime? (e.g. the length of the nonce can be specified but not
       its content?)  Maybe refer to how the PHC String Format
-      (https://github.com/P-H-C/phc-string-format/blob/master/phc-sf-
+      (https://GitHub.com/P-H-C/phc-string-format/blob/master/phc-sf-
       spec.md) describes how parameters must be defined and only allow
       constants and csprng generated content?
 
@@ -1500,8 +1500,8 @@ Internet-Draft                     SCC                      October 2020
 
    It should be possible to have user specified parameters such as the
    key/nonce length explicitly given by the user, but also a performance
-   mode which makes an evaluation for each configuration and give back a
-   prioritized list for each configuration.  In this way it is possible
+   mode that evaluates for each configuration and gives back a
+   prioritized list for each configuration.  In this way, it is possible
    to select parameters depending on systems properties.  Such a
    parameter choice would be beneficial e.g. in the case of Argon2
    (https://tools.ietf.org/html/draft-irtf-cfrg-argon2-03) in which one
@@ -1509,13 +1509,13 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 27]
+Mindermann & Teis         Expires 22 April 2021                [Page 27]
 
 Internet-Draft                     SCC                      October 2020
 
 
-   chosen on the base of the corresponding system.  That kind of
-   parameter selection can be seen e.g. in Libpasta Tuning
+   chosen based on the corresponding system.  That kind of parameter
+   selection can be seen e.g. in Libpasta Tuning
    (https://libpasta.github.io/advanced/tuning/), which returns a secure
    parameter set depending on executed evaluations.
 
@@ -1544,7 +1544,7 @@ Internet-Draft                     SCC                      October 2020
 
    *  [x] What kind of parameters can be chosen based on the Secure
       Crypto Config? => E.g.  Should be all except the plaintext and the
-      key for encryption algorithms.  Also many parameters can be
+      key for encryption algorithms.  Also, many parameters can be
       generated based on cryptographically secure random numbers.
 
    *  [x] TODO The Secure Crypto Config Interface should include a
@@ -1565,7 +1565,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 28]
+Mindermann & Teis         Expires 22 April 2021                [Page 28]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1603,7 +1603,7 @@ Internet-Draft                     SCC                      October 2020
    *  The operators of the Secure Crypto Config must ensure that
       potential unauthorized parties are not able to manipulate the
       parameters of the published Secure Crypto Config.  Countermeasures
-      to this are in place by utilizing git's gpg signatures and
+      to this are in place by utilizing gits gpg signatures and
       integrity as well as signatures for the published Secure Crypto
       Config files as well.
 
@@ -1621,7 +1621,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 29]
+Mindermann & Teis         Expires 22 April 2021                [Page 29]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1632,8 +1632,8 @@ Internet-Draft                     SCC                      October 2020
 
    The Secure Crypto Config does not apply to all use cases for
    cryptography and usage of cryptography primitives.  It is meant to
-   provide secure defaults for the most common use cases and for non-
-   expert programmers.  Additionally, non-experts may still implement
+   provide secure defaults for the most common use cases and non-expert
+   programmers.  Additionally, non-experts may still implement
    vulnerable code by using the Secure Crypto Config.  Yet, it should
    reduce the vulnerabilities from making the wrong choices about
    parameters for cryptography primitives.
@@ -1647,14 +1647,14 @@ Internet-Draft                     SCC                      October 2020
 
 9.5.1.  Security Guarantees
 
-   The Secure Crypto Config makes a best effort to be as up-to-date with
-   recent discoveries, research and developments in cryptography
-   algorithms as possible.  Following this it strives to publish
+   The Secure Crypto Config makes the best effort to be as up-to-date
+   with recent discoveries, research and developments in cryptography
+   algorithms as possible.  Following this, it strives to publish
    cryptography algorithms and corresponding parameter choices for
    common use cases.
 
    Yet, the Secure Crypto Config and the involved parties working on and
-   publishing it doe not guarantee security for the proposed parameter
+   publishing it do not guarantee security for the proposed parameter
    configurations or any entity making use of it.  E.g. a new algorithm
    that can do brute-force attacks exponentially faster could be
    existing or published right after the publication of the most recent
@@ -1677,7 +1677,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 30]
+Mindermann & Teis         Expires 22 April 2021                [Page 30]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1690,7 +1690,7 @@ Internet-Draft                     SCC                      October 2020
    *  *Content:* Depending on the distribution method of the Secure
       Crypto Config, it is also possible that an attacker could change
       the content of the Secure Crypto Config as man-in-the-middle.
-      Especially if a http connection is used to obtain the Secure
+      Especially if an http connection is used to obtain the Secure
       Crypto Config, this will be a serious problem.
 
 10.  IANA Considerations
@@ -1733,7 +1733,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 31]
+Mindermann & Teis         Expires 22 April 2021                [Page 31]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1789,7 +1789,7 @@ A.1.  JSON Secure Crypto Config
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 32]
+Mindermann & Teis         Expires 22 April 2021                [Page 32]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1845,7 +1845,7 @@ Appendix B.  Example Java Interface using Secure Crypto Config
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 33]
+Mindermann & Teis         Expires 22 April 2021                [Page 33]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1901,7 +1901,7 @@ public abstract interface SecureCryptoConfigInterface {
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 34]
+Mindermann & Teis         Expires 22 April 2021                [Page 34]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -1957,7 +1957,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 35]
+Mindermann & Teis         Expires 22 April 2021                [Page 35]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -2013,7 +2013,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 36]
+Mindermann & Teis         Expires 22 April 2021                [Page 36]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -2069,7 +2069,7 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 37]
+Mindermann & Teis         Expires 22 April 2021                [Page 37]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -2125,7 +2125,7 @@ abstract class AbstractSCCPasswordHash {
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 38]
+Mindermann & Teis         Expires 22 April 2021                [Page 38]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -2181,7 +2181,7 @@ Authors' Addresses
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 39]
+Mindermann & Teis         Expires 22 April 2021                [Page 39]
 
 Internet-Draft                     SCC                      October 2020
 
@@ -2237,4 +2237,4 @@ Internet-Draft                     SCC                      October 2020
 
 
 
-Mindermann & Teis         Expires 21 April 2021                [Page 40]
+Mindermann & Teis         Expires 22 April 2021                [Page 40]
